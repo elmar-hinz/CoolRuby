@@ -1,5 +1,5 @@
 require 'test/unit'
-require 'Cool/Domain/ValidationError'
+require 'cool/domain'
 
 module Cool
 	module Domain
@@ -15,6 +15,7 @@ module Cool
 			
 			def test_errorid
 				assert_equal 'error_id', @sut.to_s
+				assert_equal :error_id, @sut.id
 			end
 			
 			def test_throws_type_error_for_string_argument

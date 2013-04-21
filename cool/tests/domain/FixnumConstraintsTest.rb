@@ -1,5 +1,5 @@
 require 'test/unit'
-require 'Cool/Domain/FixnumConstraints'
+require 'cool/domain'
 
 module Cool
 	module Domain

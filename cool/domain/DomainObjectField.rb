@@ -1,5 +1,4 @@
-require 'Cool/Domain/StringConstraints'
-require 'Cool/Domain/AbstractConstraint'
+require 'cool/domain'
 
 module Cool
 	module Domain 

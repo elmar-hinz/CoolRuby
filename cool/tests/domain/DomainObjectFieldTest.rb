@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require 'Cool/Domain/DomainObjectField'
+require 'cool/domain'
 
 module Cool
 	module Domain

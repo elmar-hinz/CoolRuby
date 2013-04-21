@@ -1,6 +1,4 @@
-require 'Cool/Domain/ConstraintFactory'
-require 'Cool/Domain/AbstractConstraint'
-require 'Cool/Domain/ValidationError'
+require 'cool/domain'
 
 module Cool
 	module Domain 

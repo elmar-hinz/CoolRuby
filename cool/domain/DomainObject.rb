@@ -1,7 +1,4 @@
-require 'Cool/Domain/ValidationError'
-require 'Cool/Domain/DomainObjectField'
-require 'Cool/Domain/FixnumConstraints'
-require 'Cool/Domain/StringConstraints'
+require 'cool/domain'
 
 module Cool
 	module Domain 
