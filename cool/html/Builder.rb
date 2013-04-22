@@ -9,7 +9,7 @@ module Cool
 			end
 
 			def self.make_node(classname, configuration)
-				tag = Object.const_get(classname).new
+				tag = Object.const_get('Cool').const_get('HTML').const_get(classname).new
 				if(configuration.instance_of? String) 
 					tag << configuration
 				elsif(configuration.instance_of? Array)
