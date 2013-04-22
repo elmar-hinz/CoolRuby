@@ -27,6 +27,8 @@ module Cool
 				assert_instance_of SPAN, @span
 				assert_instance_of EM, @em
 				assert_instance_of STRONG, @strong 
+				assert_equal 'STRONG', STRONG.new.name
+				assert_equal 'P', P.new.name
 			end
 
 			def test_inline_tags
