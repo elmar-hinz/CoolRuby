@@ -137,6 +137,7 @@ tags:
 
   # Text-level semantics
   a:
+    inline: TRUE
     attr:
       download:
       href:
@@ -147,47 +148,75 @@ tags:
       target:
       type:
   em:
+    inline: TRUE
   strong:
+    inline: TRUE
   small:
+    inline: TRUE
   s:
+    inline: TRUE
   cite:
+    inline: TRUE
   q:
+    inline: TRUE
     attr:
       cite:
   dfn:
+    inline: TRUE
   abbr:
+    inline: TRUE
   # data:
   # time:
   code:
+    inline: TRUE
   var:
+    inline: TRUE
   samp:
+    inline: TRUE
   kbd:
+    inline: TRUE
   sub:
+    inline: TRUE
   sup:
+    inline: TRUE
   i:
+    inline: TRUE
   b:
+    inline: TRUE
   u:
+    inline: TRUE
   mark:
+    inline: TRUE
   ruby:
+    inline: TRUE
   rt:
+    inline: TRUE
   bdi:
+    inline: TRUE
   bdo:
+    inline: TRUE
   span:
+    inline: TRUE
   br:
+    inline: TRUE
   wbr:
+    inline: TRUE
 
   # Edits
   ins:
+    inline: TRUE
     attr:
       cite:
       datetime:
   del:
+    inline: TRUE
     attr:
       cite:
       datetime:
 
   # Embedded content
   img:
+    inline: TRUE
     attr:
       alt:
       crossorigin:
@@ -197,6 +226,7 @@ tags:
       width:
       usemap:
   iframe:
+    inline: TRUE
     attr:
       allowfullscreen:
       height:
@@ -207,12 +237,14 @@ tags:
       srcdoc:
       width:
   embed:
+    inline: TRUE
     attr:
       height:
       src:
       type:
       width:
   object:
+    inline: TRUE
     attr:
       data:
       form:
@@ -222,10 +254,12 @@ tags:
       usemap:
       width:
   param:
+    inline: TRUE
     attr:
       name:
       value:
   video:
+    inline: TRUE
     attr:
       autoplay:
       buffered:
@@ -240,6 +274,7 @@ tags:
       src:
       width:
   audio:
+    inline: TRUE
     attr:
       autoplay:
       buffered:
@@ -250,11 +285,13 @@ tags:
       preload:
       src:
   source:
+    inline: TRUE
     attr:
       src:
       type:
       media:
   track:
+    inline: TRUE
     attr:
       default:
       kind:
@@ -262,11 +299,14 @@ tags:
       src:
       srclang:
   canvas:
+    inline: TRUE
     attr:
       width:
       height:
   map:
+    inline: TRUE
   area:
+    inline: TRUE
     attr:
       alt:
       coords:
@@ -324,10 +364,12 @@ tags:
       name:
   legend:
   label:
+    inline: TRUE
     attr:
       for:
       form:
   input:
+    inline: TRUE
     attr:
       type:
       accept:
@@ -363,6 +405,7 @@ tags:
       value:
       width:
   button:
+    inline: TRUE
     attr:
       autofocus:
       disabled:
@@ -376,6 +419,7 @@ tags:
       type:
       value:
   select:
+    inline: TRUE
     attr:
       autofocus:
       disabled:
@@ -386,17 +430,21 @@ tags:
       required:
       size:
   datalist:
+    inline: TRUE
   optgroup:
+    inline: TRUE
     attr:
       disabled:
       label:
   option:
+    inline: TRUE
     attr:
       disabled:
       label:
       selected:
       value:
   textarea:
+    inline: TRUE
     attr:
       autofocus:
       cols:
@@ -414,6 +462,7 @@ tags:
       spellcheck:
       wrap:
   keygen:
+    inline: TRUE
     attr:
       autofocus:
       challenge:
@@ -422,15 +471,18 @@ tags:
       keytype:
       name:
   output:
+    inline: TRUE
     attr:
       for:
       form:
       name:
   progress:
+    inline: TRUE
     attr:
       max:
       value:
   meter:
+    inline: TRUE
     attr:
       value:
       min:

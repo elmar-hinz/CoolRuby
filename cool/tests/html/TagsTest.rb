@@ -6,10 +6,20 @@ module Cool
 		class TagsTest < Test::Unit::TestCase
 
 			def setup
+				@sut = Tags.new
 				@tags = %W(html head body div p span em strong h1 h2 h3 ul ol li)
 				@tags.collect{ |tag| tag.upcase }.each do |tag|
 					eval ("@#{tag.downcase} = #{tag}.new")
 				end
+			end
+
+			def test_new
+				assert_instance_of Tags, @sut
+			end
+
+			def test_load
+				@sut.load
+				assert_includes(@sut.specification['tags']['input']['attr'].keys, 'inputmode')
 			end
 
 			def test_known_Tags
