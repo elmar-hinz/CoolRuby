@@ -1,5 +1,3 @@
-require 'cool/domain'
-
 module Cool
 	module Domain 
 		class DomainObject

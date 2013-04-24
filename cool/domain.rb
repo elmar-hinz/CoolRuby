@@ -1,3 +1,4 @@
+require 'cool/module'
 require 'cool/domain/AbstractConstraint'
 require 'cool/domain/ConstraintFactory'
 require 'cool/domain/DomainObject'
